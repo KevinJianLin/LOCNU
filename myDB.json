@@ -1,0 +1,177 @@
+{"parameter":[{
+"ID":"dame.left-7a1-9ff7-2582-3b5a-b2094984aaa2",
+"typeID":"chop.cool-4d3-8407-c9d2-0b38-5b069be72da0",
+"value":"2.1.1"}],
+
+"type":[{
+"ID":"chop.cool-4d3-8407-c9d2-0b38-5b069be72da0",
+"name":"DBversion",
+"description":"Version of the systems database schema",
+"validation":"^\\\\d+\\\\.\\\\d+\\\\.\\\\d+$"
+},
+{
+"ID":"suit.tang-e32-67a8-4e32-1abb-c9e75ce1f2c1",
+"name":"componentType",
+"description":"Type of the component: atomic or composed",
+"validation":"^(atomic)|(composed)$"
+},
+{
+"ID":"cash.mare-ecf-5799-0f92-19ce-514bce3b5276",
+"name":"molType",
+"description":"The type of an atomic component",
+"validation":"^(protein)|(RNA)|(lipid)|(metabolite)|(concept)|(other)$"
+},
+{
+"ID":"wail.help-74b-baea-9c82-2adb-86e613d00ea2",
+"name":"xRefUniProt",
+"description":"Cross-reference UniProt KB ID",
+"validation":"^UniProt:[0-9A-Z_]+$"
+},
+{
+"ID":"coup.thus-73e-1292-0442-a97f-825167430bb5",
+"name":"xRefENST",
+"description":"Cross-reference Ensembl Transcript ID",
+"validation":"^ENST:\\\\d+$"
+},
+{
+"ID":"when.lute-8f9-b1e1-0ce2-1bd7-e861591869fb",
+"name":"xRefENSE",
+"description":"Cross-reference Ensembl Exon ID",
+"validation":"^ENSE:\\\\d+$"
+},
+{
+"ID":"gems.bird-2b4-0370-b092-da6f-a1ca41435587",
+"name":"xRefENSG",
+"description":"Cross-reference Ensembl Gene ID",
+"validation":"^ENSG:\\\\d+$"
+},
+{
+"ID":"time.barn-768-97b6-7962-684c-6cbd7d366979",
+"name":"xRefENSP",
+"description":"Cross-reference Ensembl Protein ID",
+"validation":"^ENSP:\\\\d+$"
+},
+{
+"ID":"warm.mate-bad-125f-a2a2-4b13-edefc11e1df0",
+"name":"xRefPMID",
+"description":"PubMed ID",
+"validation":"^PMID:\\\\d+$"
+},
+{
+"ID":"ribs.bolt-da3-5f2e-3ae2-5940-0b361a01abff",
+"name":"xRefHGNC",
+"description":"HGNC symbol",
+"validation":"^HGNC:.+$"
+},
+{
+"ID":"know.palm-46d-6143-b892-184d-0d3a420d31db",
+"name":"xRefRefSeq",
+"description":"RefSeq ID",
+"validation":"^RefSeq:.._\\\\d+(\\\\.\\\\d+)?$"
+},
+{
+"ID":"mall.case-f26-4df1-e892-9b70-380b2672a009",
+"name":"xRefUCSC",
+"description":"UCSC ID",
+"validation":"^UCSC:uc[0-9a-z]+(\\\\.\\\\d+)?$"
+},
+{
+"ID":"cork.span-2a0-f809-4182-49e2-2b3ce58c8710",
+"name":"xRefNCBIgene",
+"description":"NCBI gene ID",
+"validation":"^gene:\\\\d+$"
+},
+{
+"ID":"coat.curl-eab-3beb-e8e2-4aae-5e0f2235619c",
+"name":"xRefOMIM",
+"description":"OMIM ID",
+"validation":"^OMIM:\\\\d+$"
+},
+{
+"ID":"logs.nice-b29-62f6-c1d2-29f4-87bdb7e996ab",
+"name":"xRefPDB",
+"description":"PDB ID with optional chain separated with \".\" or \"_\"",
+"validation":"^PDB:[0-9][0-9A-Za-z]{3}([\\\\._][0-9A-Za-z])?$"
+},
+{
+"ID":"snow.gram-8a2-cb70-96e2-daba-61933e196c9b",
+"name":"genericNote",
+"description":"Free-text annotation of an entity",
+"validation":".+"
+},
+{
+"ID":"pure.heal-c14-7e5a-65b2-ebbe-d822be29e26c",
+"name":"historyNote",
+"description":"Information on a superseded entity",
+"validation":".+"
+},
+{
+"ID":"seat.fate-150-9459-c452-3a15-98518ebcd683",
+"name":"geneType",
+"description":"Gene  type as defined by HGNC",
+"validation":"^(immunoglobulin)|(lncRNA)|(miRNA)|(protein)|(protocadherin)|(RNA, cluster)|(RNA, misc)|(rRNA)|(scRNA)|(snoRNA)|(snRNA)|(TCR)|(tRNA)|(vtRNA)|(Y RNA)$"}],
+
+"system":[{
+"ID":"gait.fuel-20c-4fa8-c142-5898-6498bb30ae16",
+"code":"LOCNU",
+"name":"regulation of protein localize to nuceluous",
+"def":"protein localization",
+"description":"nuceluousis the major site for generating ribosome then transfer to cytoplasma for translation purpose;"
+},
+{
+"ID":"maze.herd-7fa-08da-4412-1b3a-1826d09464a9",
+"code":"NUPCO",
+"name":"Nucleoar ribonuclease P complex",
+"description":"Nucleoar ribonuclease P complex(GO:0005655). It catalyzes the 5' endonuclelytic cleaveage of precusor tRNA to yield mature tRNA"
+},
+{
+"ID":"cape.cans-9cc-0a82-03e2-982f-bd3c141b4ac5",
+"code":"NUOEX",
+"name":"Nucleolar exosome (Rnase complex)",
+"description":"GO:0101019"
+},
+{
+"ID":"sent.gone-b05-3911-e5d2-5801-46c78826daf7",
+"code":"NUOPE",
+"name":"nucleolar peribosome",
+"description":"GO:0030685"
+},
+{
+"ID":"star.gull-d7e-0881-9662-9af7-b2e65ad1ccb6",
+"code":"RNAPO",
+"name":"RNA polymerase I complex",
+"description":"GO:0005736"
+},
+{
+"ID":"lips.tour-0bd-fc8d-5962-f8d6-f74993d1e1cc",
+"code":"NUOPA",
+"name":"nucleolar part",
+"description":"GO:0044452"
+},
+{
+"ID":"wake.dull-a5f-7f3a-cb42-0a50-78a1d6adafec",
+"code":"SNRNP",
+"name":"small nucleolar ribonucleoprotein complexes",
+"description":"small nucleolar ribonucleoprotein complexes"}],
+
+"systemComponent":[{
+"ID":"peel.tips-ff4-1513-7392-6927-33c143179d98",
+"systemID":"star.gull-d7e-0881-9662-9af7-b2e65ad1ccb6",
+"componentID":"pump.send-40b-f586-1c12-e982-395dac142804",
+"evidenceType":"TAS",
+"evidenceSource":"9236775",
+"notes":"The largest subunit of RNA polymerase I, It localized to fibrillar centres (FC) regions of nuclelous. Combine with topoisomerase I and the class I transcription factor NOR-90/UBF."}],
+
+"component":[{
+"ID":"pump.send-40b-f586-1c12-e982-395dac142804",
+"code":"POLR1A"}],
+
+"componentMolecule":[],
+
+"molecule":[],
+
+"geneProduct":[],
+
+"gene":[],
+
+"note":[]}
